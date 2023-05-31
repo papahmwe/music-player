@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/cb07d8fa89.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="playListContainerTag"></div>
+        <audio src="" class="audioTag">
+            Your browser does not support the audio element.
+        </audio>
+        <div class="currentAndTotleTime">00:00 / 00:00</div>
+        <div id="progressBar">
+            <div id="currentProgress"></div>
+        </div>
+        <div class="music_player">
+            <i class="fas fa-step-backward controls previousButton" aria-hidden="true"></i>
+            <i class="fas fa-play-circle controls playButton" aria-hidden="true"></i>
+            <i class="far fa-pause-circle controls pauseButton" aria-hidden="true"></i>
+            <i class="fas fa-step-forward controls nextButton" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <script src="./node.js"></script>
+</body>
+
+</html>
